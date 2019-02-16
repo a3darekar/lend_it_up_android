@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <!--<ImageButton-->
+    <!--android:layout_width="130dp"-->
+    <!--android:layout_height="117dp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:scaleType="fitXY"-->
+    <!--android:src="@drawable/icon"-->
+    <!--android:background="@drawable/round_outline" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="117dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/round_outline"
+        app:srcCompat="@drawable/icon"
+        />
+
+
+    <EditText
+        android:id="@+id/etFname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="First Name" />
+
+    <EditText
+        android:id="@+id/etLname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Phone Number" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="E-mail id" />
+
+    <EditText
+        android:id="@+id/etPrn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="PRN Number" />
+
+    <EditText
+        android:id="@+id/etBranch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="420dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Branch" />
+
+    <EditText
+        android:id="@+id/etYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="480dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Year" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Update"
+        android:onClick="onSignUpClick"/>
+
+
+</RelativeLayout>
